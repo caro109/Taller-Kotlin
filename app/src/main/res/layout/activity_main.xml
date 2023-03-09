@@ -37,20 +37,25 @@
         android:textColor="@color/black"
         android:text="RadioButton" />
 
-    <RadioButton
-        android:id="@+id/radioButton"
+    <RadioGroup
+        android:id="@+id/idRadioGroup"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/black"
-        android:text="Radio 1"
-        />
+        android:layout_height="wrap_content">
 
-    <RadioButton
-        android:id="@+id/radioButton2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/black"
-        android:text="Radio 2" />
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Radio 1"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Radio 2"
+            android:textColor="@color/black" />
+    </RadioGroup>
 
     <TextView
         android:id="@+id/textView3"
@@ -117,6 +122,6 @@
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="presioname" />
+        android:text="Imprimir" />
 
 </LinearLayout>
